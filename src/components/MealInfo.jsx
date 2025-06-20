@@ -18,7 +18,7 @@ function MealInfo() {
         getInfo()
     }
     return (  
-        <div className="bg-amber-300">
+        <div className="w-full  min-h-screen bg-amber-300 ">
             {
                 !info? "":
                 <div className="  flex flex-col
@@ -58,7 +58,7 @@ function MealInfo() {
                     {info.strMeal}
                     </button>
                 <h3 className=" text-black font-bold ml-5 mt-5 text-xl">Intruction's</h3>
-                <p className=" mt-5 ml-5  w-full text-black font-bold
+                <p className=" mt-5 ml-5  w-full text-black font-bold flex-wrap
                 text-sm  
                 sm:text-base  sm:font-medium
                 md:text-base md:font-sans md:font-medium
