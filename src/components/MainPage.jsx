@@ -41,15 +41,15 @@ function MainPage() {
          <div className=' flex '>
          <input type="text" placeholder='Search Dish,eg: Veg,Cake etc ' 
          className='border-amber-50 bg-gray-200 rounded-xl h-10  pl-2
-          w-full
+          w-60 text-sm
          
           sm:w-[15rem] sm:text-sm
            md:w-[25rem] md:text-lg
             lg:w-[30rem] lg:text-xl'
           onChange={handleInput}/>
-         <button className="border-2 ml-2 bg-orange-500 h-10  rounded-xl
+         <button className="w-20 border-2 ml-2 bg-orange-500 h-10  rounded-xl
           text-amber-50 px-4  cursor-pointer hover:bg-teal-300 
-          w-full
+          
           sm:w-[5rem] sm:text-sm sm:text-center
           md:w-[6rem] md:text-base
           lg:w-[8rem] lg:text-xl
