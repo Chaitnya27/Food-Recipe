@@ -60,7 +60,7 @@ Please change the parent <Route path="${X}"> to <Route path="${X==="/"?"*":`${X}
           sm:w-[5rem] sm:text-sm sm:text-center
           md:w-[6rem] md:text-base
           lg:w-[8rem] lg:text-xl
-          `,onClick:D,children:"Search"})]}),at.jsx("h4",{className:"font-bold mt-10",children:h}),at.jsx("div",{children:at.jsx(ov,{detail:f})})]})})}function dv(){const{mealid:f}=vy();console.log(f);const[o,s]=_.useState(),r=async()=>{const g=await(await fetch(`https://www.themealdb.com/api/json/v1/1/lookup.php?i=${f}`)).json();s(g.meals[0])};return o!=""&&r(),at.jsx("div",{className:"bg-amber-300",children:o?at.jsxs("div",{className:`  flex flex-col
+          `,onClick:D,children:"Search"})]}),at.jsx("h4",{className:"font-bold mt-10",children:h}),at.jsx("div",{children:at.jsx(ov,{detail:f})})]})})}function dv(){const{mealid:f}=vy();console.log(f);const[o,s]=_.useState(),r=async()=>{const g=await(await fetch(`https://www.themealdb.com/api/json/v1/1/lookup.php?i=${f}`)).json();s(g.meals[0])};return o!=""&&r(),at.jsx("div",{className:"w-full  min-h-screen bg-amber-300 ",children:o?at.jsxs("div",{className:`  flex flex-col
                 
                 sm:justify-center items-center
                 
@@ -88,7 +88,7 @@ Please change the parent <Route path="${X}"> to <Route path="${X==="/"?"*":`${X}
                 sm:w-[10rem] sm:text-sm
                 md:w-[13rem] md:text-base
                 lg:w-[17rem] lg:text-lg 
-                `,children:o.strMeal}),at.jsx("h3",{className:" text-black font-bold ml-5 mt-5 text-xl",children:"Intruction's"}),at.jsx("p",{className:` mt-5 ml-5  w-full text-black font-bold
+                `,children:o.strMeal}),at.jsx("h3",{className:" text-black font-bold ml-5 mt-5 text-xl",children:"Intruction's"}),at.jsx("p",{className:` mt-5 ml-5  w-full text-black font-bold flex-wrap
                 text-sm  
                 sm:text-base  sm:font-medium
                 md:text-base md:font-sans md:font-medium
