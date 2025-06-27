@@ -6,7 +6,7 @@ function MealCard({detail}) {
     return (
         <>
         <div className=" flex flex-wrap justify-evenly">
-            {!detail?  "data not found" : detail.map((currI)=>{
+            {!detail?  "Search Valid Dish to get Receipe" : detail.map((currI)=>{
                 return(
                     <div className=" max-w-sm rounded overflow-hidden shadow-lg
                      bg-white p-4  items-center text-center mt-10  hover:shadow-current cursor-grab ">
